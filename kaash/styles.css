@@ -1,0 +1,102 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.intro {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.container-fluid {
+  background-color: white;
+}
+.search-btn {
+  background-color: white;
+}
+.navbar-brand {
+  color: rgb(5, 1, 9);
+}
+.navbar-brand:hover {
+  color: orange;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 150px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+#home::before {
+  content: "";
+  background: url("titlebg.jpg") no-repeat center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#services {
+  padding-top: 60px;
+  background: url("home.jpg") no-repeat center/cover;
+  height: 600px;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 50px auto;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  border-radius: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.services-container {
+  display: flex;
+}
+
+h1 {
+  color: rgb(223, 121, 54);
+  font-weight: 900;
+  text-shadow: 12px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.services-text {
+  padding-top: 40px;
+  text-align: center;
+}
+/* Footer */
+footer {
+  padding: 7% 15%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(223, 121, 54);
+}
+#contacts {
+  height: 200px;
+}
+.social-icon {
+  color: rgb(221, 184, 160);
+  margin: 20px 10px;
+}
+.social-icon:hover {
+  color: rgb(232, 140, 97);
+  margin: 20px 10px;
+}
+
+.copyright-text {
+  font-size: medium;
+  font-weight: 700;
+}
